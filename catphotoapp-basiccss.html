@@ -1,5 +1,42 @@
+<!DOCTYPE html>
 
-<!--<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">-->
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 40px 20px 20px 40px;
+    margin: 40px 20px 20px 40px;
+  }
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 40px 20px 20px 40px;
+    margin: 40px 20px 20px 40px;
+  }
+</style>
+<h5 class="injected-text">margin</h5>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
+
+<!-- old catphotoapp (depricated)
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
 <style>
     .red-text {
@@ -24,6 +61,9 @@
     .silver-background {
       background-color: silver;
     }
+    #cat-photo-form {
+      background-color: green;
+    }
   </style>
   
   <h2 class="red-text">CatPhotoApp</h2>
@@ -47,7 +87,7 @@
       </ol>
     </div>
   
-    <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <form action="https://freecatphotoapp.com/submit-cat-photo" id="cat-photo-form">
       <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
       <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
       <label><input type="checkbox" name="personality" checked> Loving</label>
@@ -57,3 +97,4 @@
       <button type="submit">Submit</button>
     </form>
   </main>
+  -->
